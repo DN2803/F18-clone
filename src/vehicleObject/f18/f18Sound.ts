@@ -1,9 +1,5 @@
 import { F18GamepadController } from './f18GamePadController';
 /*
- * @Author: renjianfeng
- * @Date: 2022-03-21 15:08:40
- * @LastEditTime: 2022-04-02 14:28:49
- * @LastEditors: renjianfeng
  */
 import { F18CameraController } from './f18CameraController';
 import { F18Physics } from './f18Physics';

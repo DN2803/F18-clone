@@ -1,7 +1,4 @@
 /*
- * @Date: 2022-03-25 10:11:42
- * @LastEditTime: 2022-04-02 14:27:14
- * @LastEditors: renjianfeng
  */
 import { F18Physics } from "./f18Physics";
 import * as BABYLON from '@babylonjs/core'

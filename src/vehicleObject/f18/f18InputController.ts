@@ -1,10 +1,6 @@
 import { F18GamepadController } from './f18GamePadController';
 import { F18CameraController } from './f18CameraController';
 /*
- * @Author: renjianfeng
- * @Date: 2022-03-21 15:08:40
- * @LastEditTime: 2022-04-08 17:29:48
- * @LastEditors: renjianfeng
  */
 import { F18Physics } from "./f18Physics";
 import * as BABYLON from '@babylonjs/core'
