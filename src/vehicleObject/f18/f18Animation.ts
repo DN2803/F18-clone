@@ -5,47 +5,46 @@ import { GUI } from 'dat.gui'
 
 export class F18Animation {
 
-    //载具物理对象
+    //Vehicle physics object
     public vehicle: F18Physics;
 
-    //起落架骨骼
+    //Landing gear skeleton
     public bones = []
 
-    //起落架轮胎
+    //landing gear tires
     public ikMeshes = []
 
-    //物理轮胎
+    //Physical tires
     public ikMeshesClone = []
 
-    //副翼
+    //aileron
     private ailerons = []
 
-    //襟翼
+    //flaps
     private flaps = []
 
-    //方向舵
+    //rudder
     private rudders = []
 
-    //升降舵
+    //elevator
     private elevators = []
 
-    //起落架角度集合
+    //Landing gear angle collection
     public axises = []
 
-    //和骨骼绑定的前轮轴网格（起落架放下时隐藏）
+    //The nose axle mesh bound to the bones (hidden when the landing gear is down)
     private wheelFrontAxisMesh: BABYLON.Mesh
 
-    //用于和前轮悬挂绑定的前轮轴网格（起落架收起时隐藏）
-    private wheelFrontAxisMeshClone: BABYLON.Mesh
+    //The front wheel axle mesh used to bind the front wheel suspension (hidden when the landing gear is retracted)
+    private wheelFrontAxisMeshClone: ​​BABYLON.Mesh
 
-    //缓存高度
+    //cache height
     private wheelFrontAxisMeshPositionY = 0
 
     private scene: BABYLON.Scene
 
-    //尾焰集合
+    //Tail flame collection
     private flames = []
-
 
     constructor(scene, vehicle: F18Physics) {
         this.scene = scene
