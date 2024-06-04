@@ -76,7 +76,6 @@ export class AirportScene{
             skyboxMaterial.disableLighting = true;
     
             /**
-             * 天空球
              */
             this.skySphere = BABYLON.MeshBuilder.CreateSphere("skySphere", {diameter: 15000}, scene);
             this.skySphere.rotation.x=Math.PI;
